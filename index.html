@@ -10,7 +10,7 @@
             crossorigin="anonymous"
     />
     <link rel="stylesheet" href="login/loginStyle.css" />
-    <title>Sliding Sign In & Sign Up Form</title>
+    <title>Green Shadow Registration</title>
 </head>
 <body>
 <div class="container" id="container">
@@ -27,7 +27,7 @@
             <input type="password" placeholder="Password" />
             <input id="sign-up-re-password" type="password" placeholder="Re-Enter Password" />
             <input type="text" placeholder="Role" />
-            <button onclick="return false;">Sign Up</button>
+            <button id="sign-up">Sign Up</button>
         </form>
     </div>
     <div class="form-container sign-in-container">
@@ -42,7 +42,7 @@
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
             <a href="#">Forgot your password?</a>
-            <button onclick="return false;">Sign In</button>
+            <button id="sign-in">Sign In</button>
         </form>
     </div>
     <div class="overlay-container">
@@ -60,7 +60,10 @@
         </div>
     </div>
 </div>
-<script src="script/login.js"></script>
+<!--<script src="script/login.js"></script>-->
+<script src="login/loginScript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script/jquery/jquery.min.js"></script>
 
 </body>
 </html>

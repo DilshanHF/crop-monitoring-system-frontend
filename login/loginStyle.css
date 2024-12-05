@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
 
 :root {
-    --main-color: #3e95e2;
-    --secondary-color: #0684f2;
+    --main-color: #b9b26c;
+    --secondary-color: #b9b26c;
     --gradient: linear-gradient(135deg,
     var(--main-color),
     var(--secondary-color));
@@ -13,7 +13,7 @@
 }
 
 body {
-    background: #f6f5f7;
+    background: url("https://img.freepik.com/free-photo/farmer-holds-rice-hand_1150-6063.jpg?t=st=1733408427~exp=1733412027~hmac=907163fba54a971d7abb5498d30040f37a5f54a71a44228c57dbf8feabf43113&w=1060");
     font-family: "Nunito", sans-serif;
     display: flex;
     flex-direction: column;
@@ -192,7 +192,7 @@ input {
 }
 
 .overlay {
-    background: var(--secondary-color);
+    background: #b9b26c;
     background: var(--gradient);
     background-repeat: no-repeat;
     background-size: cover;
