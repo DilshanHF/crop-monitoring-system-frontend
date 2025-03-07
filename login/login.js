@@ -53,7 +53,7 @@ $('#sign-up').on('click', () => {
     console.log(role, email, password, re_password);
     if (password == re_password) {
         $.ajax({
-            url: "http://localhost:8093/greenShadow/api/v1/auth",
+            url: "http://localhost:8080/greenShadow/api/v1/auth",
             type: "POST",
             data: userJson,
             contentType: "application/json",
@@ -119,7 +119,7 @@ $('#sign-In').on('click', () => {
     console.log(email, password);
 
     $.ajax({
-        url: "http://localhost:8093/greenShadow/api/v1/auth/signIn",
+        url: "http://localhost:8080/greenShadow/api/v1/auth/signIn",
         type: "POST",
         data: userJson,
         contentType: "application/json",
